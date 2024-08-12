@@ -1,0 +1,42 @@
+1- read the data from csv using pandas
+
+2- drop ['area_type', 'balcony', 'society', 'availability'] columns 
+
+               ("Try to decoded area type at the end and see the result") "after Try this it doesn't matter"
+
+3- drop all nulls (total 90 rows)
+
+4- clean the size column by creating new column (Bhk) that has the number of bedrooms
+
+5- clean the sqft column by take the average of the range and drop this format(34.46Sq. Meter)               
+
+6- create new column price  per sqft
+
+7- clean location column make any location with freq less than or equal 10 labeled as other 
+
+8- remove any record with ('total_sqft'/ 'bhk') < 300
+
+9- Considering that this data has a standard distribution 
+I will take the first std per location and drop the other records   
+
+                 ("Try to get 2th std or 3th at the end and see the results") "after try this the best score was in case 1th std"
+
+10- remove bhk outlier rows based on location 
+		(The remove_bhk_outliers function aims to identify and remove outliers in the price_per_sqft column of a DataFrame based on the number of bedrooms (bhk). The outliers are determined by comparing each bhk group's price_per_sqft with the statistics of the group with one less bedroom (bhk-1))
+
+11- clean the bath column by drop the rows which (df4.bath < df4.bhk+2) has bath more than rooms plus 2 
+
+12- drop the (size & price_per_sqft) columns
+
+13- Get Dummies for locations 
+
+14- split the data and run Linear Regression model
+
+15- using GridsearchCV() and cross validation score the test these models ['Liner Regression', 'DecisionTree regressor', 'Lasso']
+
+16- Final use Linear Regression Model to get The price Prediction according to his high score 
+
+17- Export The model using 'Pickle' and the columns using 'Json'
+
+
+
