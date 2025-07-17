@@ -1,6 +1,15 @@
 
 # Bengaluru House Prices (Regression)
 
+<!-- Stack Badges -->
+[![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)](https://www.python.org/) 
+[![Flask](https://img.shields.io/badge/Flask-000000?logo=flask&logoColor=white)](https://flask.palletsprojects.com/) 
+[![Scikit‑learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikit-learn&logoColor=white)](https://scikit-learn.org/) 
+[![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white)](https://numpy.org/) 
+[![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white)](https://pandas.pydata.org/) 
+[![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?logo=matplotlib&logoColor=white)](https://matplotlib.org/)
+
+
 ## Project Overview
 This project, **"Bengaluru House Prices,"** focuses on developing a real estate price prediction website using Python, Sklearn, and Flask. The main goal of the project is to build a linear regression model to predict house prices in Bengaluru using a dataset from Kaggle. The project also involves data cleaning, outlier detection, feature engineering, dimensionality reduction, and model optimization.
 
